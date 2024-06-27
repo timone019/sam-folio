@@ -31,3 +31,10 @@
 .project .link--icon {
   margin-left: 0.5em;
 }
+
+.project__screenshot {
+  width: 200px; /* Fixed width */
+  height: 150px; /* Fixed height */
+  object-fit: cover; /* Cover the container, might crop the image */
+  margin-top: 1.2em;
+}

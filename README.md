@@ -20,6 +20,12 @@ cd samfolio
 If you use [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm), execute:
 
 ```shell
+npm install
+npm run build
+npm start
+```
+
+```shell
 nvm install
 nvm use
 ```

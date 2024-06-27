@@ -1,6 +1,12 @@
+import MovieAppShot from './img/MovieAppShot.png'
+import AngularMovieAppShot from './img/angularMovieAppShot.png'
+import chatAppBg from './img/chatAppBg.png'
+import TheLinkScreenShot from './img/TheLinkScreenShot.png'
+import pokedexScreenShot from './img/pokedexScreenShot.png'
+
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://timone019.github.io/samfolio',
+  homepage: 'https://timone019.github.io/sam-folio',
   title: 'SM',
 }
 
@@ -22,7 +28,7 @@ const projects = [
   // if there are no projects, Projects section won't show up
   {
     name: 'Must C Movies',
-    screenshots: ['./img/MovieAppShot.png'],
+    screenshots: [MovieAppShot],
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['MERN:', 'MongoDB', 'Express', 'React', 'NodeJS'],
@@ -31,6 +37,7 @@ const projects = [
   },
   {
     name: 'Angular Movie App',
+    screenshots: [AngularMovieAppShot],
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['MEAN:', 'MongoDB', 'Express', 'Angular', 'NodeJS'],
@@ -39,36 +46,46 @@ const projects = [
   },
   {
     name: 'Chat City',
+    screenshots: [chatAppBg],
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['React-Native', 'Expo', 'FireStoreDB', 'FirebaseAuth+Cloud', 'Gifted-Chat-Library'],
+    stack: [
+      'React-Native',
+      'Expo',
+      'FireStoreDB',
+      'FirebaseAuth+Cloud',
+      'Gifted-Chat-Library',
+    ],
     sourceCode: 'https://github.com/timone019/chat-app.git',
     livePreview: 'https://github.com/timone019/chat-app.git',
   },
 
   {
     name: 'The Link',
+    screenshots: [TheLinkScreenShot],
     description:
       'A serverless PWA meet app using Lambda AWS and Google API Calendar to search for upcoming events in different Cities worldwide',
-    stack: ['React-Native', 'Expo', 'FireStoreDB', 'FirebaseAuth+Cloud', 'Gifted-Chat-Library', ],
+    stack: ['React-Native', 'Expo', 'FireStoreDB', 'FirebaseAuth+Cloud', 'Gifted-Chat-Library'],
     sourceCode: 'https://github.com/timone019/meet.git',
     livePreview: 'https://timone019.github.io/meet',
   },
 
   {
     name: 'Pok-dex App',
+    screenshots: [pokedexScreenShot],
     description:
       'A serverless PWA meet app using Lambda AWS and Google API Calendar to search for upcoming events in different Cities worldwide',
     stack: ['React-Native', 'Expo', 'FireStoreDB', 'FirebaseAuth+Cloud', 'Gifted-Chat-Library', ],
-    sourceCode: '  "https://github.com/timone019/Pok-dex.git',
+    sourceCode: 'https://github.com/timone019/Pok-dex.git',
     livePreview: 'https://timone019.github.io/Pok-dex',
   },
   {
     name: 'Coming Soon',
+    screenshots: [''],
     description:
-      'TBD',
+      'Still in development',
     stack: ['React-Native', 'Expo', 'FireStoreDB', 'FirebaseAuth+Cloud', 'Gifted-Chat-Library', ],
-    sourceCode: '  "https://github.com/timone019',
+    sourceCode: 'https://github.com/timone019',
     livePreview: 'https://timone019.github.io',
   },
   

@@ -7,6 +7,18 @@ const ProjectContainer = ({ project }) => (
   <div className='project'>
     <h3>{project.name}</h3>
 
+    {/* {project.screenshots && project.screenshots.length > 0 && (
+  <img src={`${process.env.PUBLIC_URL}${project.screenshots[0]}`} alt={`${project.name} screenshot`} className='project__screenshot' />
+)} */}
+
+    {/* Render the first screenshot if available */}
+    {project.screenshots && project.screenshots.length > 0 && (
+      <img
+        src={project.screenshots[0]}
+        alt={`${project.name} screenshot`}
+        className='project__screenshot'
+      />
+    )}
     <p className='project__description'>{project.description}</p>
     {project.stack && (
       <ul className='project__stack'>
@@ -33,6 +45,8 @@ const ProjectContainer = ({ project }) => (
         href={project.livePreview}
         aria-label='live preview'
         className='link link--icon'
+        target='_blank'
+        rel='noopener noreferrer'
       >
         <LaunchIcon />
       </a>
