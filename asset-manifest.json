@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/sam-folio/static/css/main.a1437f3e.css",
+    "main.js": "/sam-folio/static/js/main.2d087aab.js",
+    "static/media/TheLinkScreenShot.png": "/sam-folio/static/media/TheLinkScreenShot.cbb8f1bc569dfad56e61.png",
+    "static/media/chatAppBg.png": "/sam-folio/static/media/chatAppBg.b084521e594758692d91.png",
+    "static/media/angularMovieAppShot.png": "/sam-folio/static/media/angularMovieAppShot.f57ffd5f62f352ff1d4e.png",
+    "static/media/MovieAppShot.png": "/sam-folio/static/media/MovieAppShot.c761598ec2e77611faf3.png",
+    "static/media/pokedexScreenShot.png": "/sam-folio/static/media/pokedexScreenShot.32049cae53978d10cda9.png",
+    "index.html": "/sam-folio/index.html",
+    "main.a1437f3e.css.map": "/sam-folio/static/css/main.a1437f3e.css.map",
+    "main.2d087aab.js.map": "/sam-folio/static/js/main.2d087aab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1437f3e.css",
+    "static/js/main.2d087aab.js"
+  ]
+}
