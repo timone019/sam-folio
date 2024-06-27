@@ -1,20 +1,20 @@
-# Cleanfolio
+# Samfolio
 
-Cleanfolio is a portfolio template built with React. However, if you prefer a template built with HTML, CSS, and JavaScript, you can check out [Cleanfolio Minimal](https://github.com/rjshkhr/cleanfolio-minimal).
+Samfolio is a portfolio built from a template with React. However, if you prefer a template built with HTML, CSS, and JavaScript, you can check out Cleanfolio Minimal. [Cleanfolio Minimal](https://github.com/rajshekhar26/cleanfolio-minimal).
 
 ## Preview
 
-[![Imgur](https://imgur.com/FwDMNEM.gif)](https://rjshkhr.github.io/cleanfolio)
+[![Imgur](https://imgur.com/FwDMNEM.gif)](https://timone019.github.io/sam-folio)
 
-[Live Demo](https://rjshkhr.github.io/cleanfolio)
+[Live Demo](https://timone019.github.io/sam-folio)
 
 ## Instructions
 
 ### Setup
 
 ```shell
-git clone https://github.com/rjshkhr/cleanfolio
-cd cleanfolio
+git clone https://github.com/timone019/sam-folio
+cd samfolio
 ```
 
 If you use [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm), execute:
@@ -42,7 +42,7 @@ yarn start
 
 - Open the `public/index.html` file and replace:
 
-`<title>John Smith</title>` with `<title>Your Name</title>`.
+`<title>Sam My</title>` with `<title>Your Name</title>`.
 
 - Open the `src/portfolio.js` file and make the necessary changes.
 
@@ -50,7 +50,7 @@ yarn start
 
 - In the `package.json` file, update:
 
-`"homepage": "https://rjshkhr.github.io/cleanfolio"`
+`"homepage": "https://timone019.github.io/sam-folio"`
 
 to `"homepage": "https://yourusername.github.io"`.
 
