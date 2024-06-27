@@ -3,6 +3,7 @@ import AngularMovieAppShot from './img/angularMovieAppShot.png'
 import chatAppBg from './img/chatAppBg.png'
 import TheLinkScreenShot from './img/TheLinkScreenShot.png'
 import pokedexScreenShot from './img/pokedexScreenShot.png'
+import resume from './Files/Samres2023.pdf'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -15,8 +16,8 @@ const about = {
   name: 'Sam My',
   role: 'Full Stack Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'If you need a problem solver, team player, someone that can uplift your development team, that would be I.',
+  resume: [resume],
   social: {
     linkedin: 'https://linkedin.com/in/sam-my-78934046',
     github: 'https://github.com/timone019/portfolio',
@@ -30,7 +31,7 @@ const projects = [
     name: 'Must C Movies',
     screenshots: [MovieAppShot],
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'The project aims to create a Full-Stack Movie web app that provides detailed movie information, user authentication, and personalized movie lists.',
     stack: ['MERN:', 'MongoDB', 'Express', 'React', 'NodeJS'],
     sourceCode: 'https://github.com/timone019/movie_api-client',
     livePreview: 'https://mustcmovies.netlify.app/',
@@ -39,7 +40,7 @@ const projects = [
     name: 'Angular Movie App',
     screenshots: [AngularMovieAppShot],
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'This is the Angular Movie App version which involes being responsive, enabling users to explore movie details, create accounts, and manage their favorite films with a seamless user experience',
     stack: ['MEAN:', 'MongoDB', 'Express', 'Angular', 'NodeJS'],
     sourceCode: 'https://github.com/timone019/myFlix-Angular-client.git',
     livePreview: 'https://timone019.github.io/myFlix-Angular-client/',
@@ -48,7 +49,7 @@ const projects = [
     name: 'Chat City',
     screenshots: [chatAppBg],
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'A mobile chat app using React Native, allowing users to chat, share images, and locations seamlessly on both Android and iOS devices.',
     stack: [
       'React-Native',
       'Expo',
@@ -65,7 +66,7 @@ const projects = [
     screenshots: [TheLinkScreenShot],
     description:
       'A serverless PWA meet app using Lambda AWS and Google API Calendar to search for upcoming events in different Cities worldwide',
-    stack: ['React-Native', 'Expo', 'FireStoreDB', 'FirebaseAuth+Cloud', 'Gifted-Chat-Library'],
+    stack: ['PWA', 'React', 'Google Auth', 'AWS Lambda', 'Google Calendar API'],
     sourceCode: 'https://github.com/timone019/meet.git',
     livePreview: 'https://timone019.github.io/meet',
   },
@@ -74,8 +75,8 @@ const projects = [
     name: 'Pok-dex App',
     screenshots: [pokedexScreenShot],
     description:
-      'A serverless PWA meet app using Lambda AWS and Google API Calendar to search for upcoming events in different Cities worldwide',
-    stack: ['React-Native', 'Expo', 'FireStoreDB', 'FirebaseAuth+Cloud', 'Gifted-Chat-Library', ],
+      'Pokédex app using HTML, CSS, and JavaScript with a search feature and modals for viewing Pokémon attributes, retrieving data from a Pokémon API',
+    stack: ['HTML', 'CSS', 'JavaScript'],
     sourceCode: 'https://github.com/timone019/Pok-dex.git',
     livePreview: 'https://timone019.github.io/Pok-dex',
   },
@@ -94,12 +95,13 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'JQuery',
-  'TypeScript',
   'React',
+  'Angular',
+  'TypeScript',
+  'React-Native',
+  'Angular Material UI',
+  'JavaScript',
+
   'React-Bootstrap',
   'Redux',
   'NodeJS',
@@ -107,17 +109,18 @@ const skills = [
   'MongoDB',
   'REST API',
   'Mongoose',
-  'React-Native',
   'Expo',
   'FireStoreDB',
   'FirebaseAuth+Cloud',
   'AWS',
   'Google Api',
   'SASS',
-  'Angular Material UI',
   'Git',
   'CI/CD',
   'Jest',
+  'HTML',
+  'CSS',
+  'JQuery',
 ]
 
 const contact = {
