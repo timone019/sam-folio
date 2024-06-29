@@ -1,5 +1,9 @@
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
+// import GitHubIcon from '@material-ui/icons/GitHub'
+// import LinkedInIcon from '@material-ui/icons/LinkedIn'
+// import TwitterIcon from '@material-ui/icons/Twitter';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import XIcon from '@mui/icons-material/X';
 import { about } from '../../portfolio'
 import './About.css'
 
@@ -45,6 +49,16 @@ const About = () => {
                 className='link link--icon'
               >
                 <LinkedInIcon />
+              </a>
+            )}
+
+            {social.twitterX && (
+              <a
+                href={social.twitterX}
+                aria-label='twitterX'
+                className='link link--icon'
+              >
+                <XIcon />
               </a>
             )}
           </>

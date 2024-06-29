@@ -16,11 +16,13 @@ const about = {
   name: 'Sam My',
   role: 'Full Stack Developer',
   description:
-    'If you need a problem solver, team player, someone that can uplift your development team, that would be I.',
+    'If you need a problem solver, team player, someone that can uplift your development team, I am your guy.',
   resume: [resume],
   social: {
     linkedin: 'https://linkedin.com/in/sam-my-78934046',
     github: 'https://github.com/timone019/portfolio',
+    twitterX: 'https://x.com/mrsamman019',
+    // medium: 'https://medium.com/@@my.samang',
   },
 }
 
@@ -100,6 +102,7 @@ const skills = [
   'TypeScript',
   'React-Native',
   'Angular Material UI',
+  'MUI',
   'JavaScript',
 
   'React-Bootstrap',
