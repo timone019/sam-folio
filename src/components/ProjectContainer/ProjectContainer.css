@@ -7,7 +7,8 @@
 }
 
 .project:hover {
-  transform: translateY(-7px);
+  /* transform: translateY(-7px); */
+  box-shadow: 0 0 30px #3838ff;
 }
 
 .project__description {
