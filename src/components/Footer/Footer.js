@@ -7,8 +7,7 @@ const Footer = () => (
       href='https://github.com/timone019/sam-folio'
       className='link footer__link'
     >
-      Template Created By Raj Shekhar
-      Revised by Sam My
+      Copyright 2021
     </a>
   </footer>
 )
