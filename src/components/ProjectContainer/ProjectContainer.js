@@ -1,6 +1,4 @@
 import uniqid from 'uniqid'
-// import GitHubIcon from '@material-ui/icons/GitHub'
-// import LaunchIcon from '@material-ui/icons/Launch'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LaunchIcon from '@mui/icons-material/Launch';
 import './ProjectContainer.css'
@@ -8,10 +6,6 @@ import './ProjectContainer.css'
 const ProjectContainer = ({ project }) => (
   <div className='project'>
     <h3>{project.name}</h3>
-
-    {/* {project.screenshots && project.screenshots.length > 0 && (
-  <img src={`${process.env.PUBLIC_URL}${project.screenshots[0]}`} alt={`${project.name} screenshot`} className='project__screenshot' />
-)} */}
 
     {/* Render the first screenshot if available */}
     {project.screenshots && project.screenshots.length > 0 && (

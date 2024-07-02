@@ -1,3 +1,5 @@
+// src/portfolio.js
+
 import MovieAppShot from './img/MovieAppShot.png'
 import AngularMovieAppShot from './img/angularMovieAppShot.png'
 import chatAppBg from './img/chatAppBg.png'
@@ -22,7 +24,7 @@ const about = {
     linkedin: 'https://linkedin.com/in/sam-my-78934046',
     github: 'https://github.com/timone019/portfolio',
     twitterX: 'https://x.com/mrsamman019',
-    // medium: 'https://medium.com/@@my.samang',
+    medium: 'https://medium.com/@my.samnang'
   },
 }
 
@@ -87,9 +89,9 @@ const projects = [
     screenshots: [''],
     description:
       'Still in development',
-    stack: ['React-Native', 'Expo', 'FireStoreDB', 'FirebaseAuth+Cloud', 'Gifted-Chat-Library', ],
-    sourceCode: 'https://github.com/timone019',
-    livePreview: 'https://timone019.github.io',
+    stack: ['' ],
+    sourceCode: '',
+    livePreview: '',
   },
   
 ]
@@ -110,12 +112,13 @@ const skills = [
   'NodeJS',
   'Express',
   'MongoDB',
+  'PostgreSQL',
   'REST API',
   'Mongoose',
   'Expo',
   'FireStoreDB',
   'FirebaseAuth+Cloud',
-  'AWS',
+  'AWS Lambda',
   'Google Api',
   'SASS',
   'Git',

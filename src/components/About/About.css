@@ -25,6 +25,12 @@
   margin-right: 0.8em;
 }
 
+.about .link--icon svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor; /* insure color is inherited from parent element */
+}
+
 .about .btn--outline {
   margin-right: 1em;
 }
