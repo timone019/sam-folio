@@ -1,6 +1,6 @@
 # Samfolio
 
-Samfolio is a portfolio built from cleanfolio template with React - (https://github.com/rjshkhr/cleanfolio.git). However, if you prefer a template built with HTML, CSS, and JavaScript, you can check out Cleanfolio Minimal. [Cleanfolio Minimal](https://github.com/rajshekhar26/cleanfolio-minimal).
+Samfolio is a portfolio built from cleanfolio template with React utilzing MUI Library - (https://github.com/rjshkhr/cleanfolio.git). However, if you prefer a template built with HTML, CSS, and JavaScript, you can check out Cleanfolio Minimal. [Cleanfolio Minimal](https://github.com/rajshekhar26/cleanfolio-minimal).
 
 ## Preview
 
