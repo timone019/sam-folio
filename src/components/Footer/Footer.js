@@ -7,7 +7,7 @@ const Footer = () => (
       href='https://github.com/timone019/sam-folio'
       className='link footer__link'
     >
-      Copyright 2021
+      © Copyright 2024
     </a>
   </footer>
 )
