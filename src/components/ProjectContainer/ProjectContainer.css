@@ -4,6 +4,9 @@
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .project:hover {
@@ -11,8 +14,17 @@
   box-shadow: 0 0 30px #3838ff;
 }
 
+.project__screenshot {
+  width: 200px; /* Fixed width */
+  height: 150px; /* Fixed height */
+  object-fit: cover; /* Cover the container, might crop the image */
+  margin-top: 1.2em;
+  align-self: center; /* Center the screenshot */
+}
+
 .project__description {
   margin-top: 1em;
+  flex-grow: 1; /* Allow description to grow */
 }
 
 .project__stack {
@@ -31,11 +43,6 @@
 
 .project .link--icon {
   margin-left: 0.5em;
+  align-self: flex-end; /* Align link icon to the bottom */
 }
 
-.project__screenshot {
-  width: 200px; /* Fixed width */
-  height: 150px; /* Fixed height */
-  object-fit: cover; /* Cover the container, might crop the image */
-  margin-top: 1.2em;
-}
