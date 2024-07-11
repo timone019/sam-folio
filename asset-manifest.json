@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sam-folio/static/css/main.6d57ce31.css",
-    "main.js": "/sam-folio/static/js/main.fa36725a.js",
+    "main.js": "/sam-folio/static/js/main.b80ea155.js",
     "static/media/TheLinkScreenShot.png": "/sam-folio/static/media/TheLinkScreenShot.cbb8f1bc569dfad56e61.png",
     "static/media/chatAppBg.png": "/sam-folio/static/media/chatAppBg.b084521e594758692d91.png",
     "static/media/angularMovieAppShot.png": "/sam-folio/static/media/angularMovieAppShot.f57ffd5f62f352ff1d4e.png",
@@ -11,10 +11,10 @@
     "index.html": "/sam-folio/index.html",
     "static/media/medium.svg": "/sam-folio/static/media/medium.f5be80e2ba6a1786266b577fd4987eef.svg",
     "main.6d57ce31.css.map": "/sam-folio/static/css/main.6d57ce31.css.map",
-    "main.fa36725a.js.map": "/sam-folio/static/js/main.fa36725a.js.map"
+    "main.b80ea155.js.map": "/sam-folio/static/js/main.b80ea155.js.map"
   },
   "entrypoints": [
     "static/css/main.6d57ce31.css",
-    "static/js/main.fa36725a.js"
+    "static/js/main.b80ea155.js"
   ]
 }
