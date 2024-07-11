@@ -7,11 +7,16 @@ const ThemeProvider = ({ children }) => {
   const [themeName, setThemeName] = useState('light')
 
   useEffect(() => {
-    const darkMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    setThemeName(darkMediaQuery.matches ? 'dark' : 'light')
-    darkMediaQuery.addEventListener('change', (e) => {
-      setThemeName(e.matches ? 'dark' : 'light')
-    });
+    const storedTheme = localStorage.getItem('themeName')
+    if (storedTheme) {
+      setThemeName(storedTheme)
+    } else {
+      const lightMediaQuery = window.matchMedia('(prefers-color-scheme: light)')
+      setThemeName(lightMediaQuery.matches ? 'light' : 'dark')
+      lightMediaQuery.addEventListener('change', (e) => {
+        setThemeName(e.matches ? 'light' : 'dark')
+      })
+    }
   }, [])
 
   const toggleTheme = () => {
