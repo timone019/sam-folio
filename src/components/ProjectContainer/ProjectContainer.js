@@ -60,7 +60,7 @@ const ProjectContainer = ({ project }) => {
               window.open(project.sourceCode, '_blank')
             }}
           >
-            <GitHubIcon />
+            <GitHubIcon /> See Code
           </a>
         )}
 
@@ -77,7 +77,7 @@ const ProjectContainer = ({ project }) => {
               window.open(project.livePreview, '_blank')
             }}
           >
-            <LaunchIcon />
+            <LaunchIcon /> See Live Site
           </a>
         )}
       </div>
