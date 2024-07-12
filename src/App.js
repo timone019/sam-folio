@@ -1,3 +1,5 @@
+// App.js
+
 import { useContext } from 'react'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
@@ -8,6 +10,8 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
+
+// import '@fortawesome/fontawesome-free/css/all.min.css'
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)

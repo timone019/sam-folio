@@ -18,7 +18,7 @@ const about = {
   name: 'Sam My',
   role: 'Full Stack Developer',
   description:
-    'If you need a problem solver, team player, someone that can uplift your development team, I am your guy.',
+    'Versatile Developer whom is skilled at communicating technical concepts in an easy-to-understand manner.',
   resume: [resume],
   social: {
     linkedin: 'https://linkedin.com/in/sam-my-78934046',

@@ -1,3 +1,7 @@
+.skills {
+  text-align: center;
+}
+
 .skills__list {
   max-width: 450px;
   width: 95%;
@@ -9,4 +13,31 @@
 
 .skills__list-item {
   margin: 0.5em;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
 }
+
+.skills__list-item i {
+  margin-right: 0.5em;
+  font-size: 1.5em;
+}
+
+.icon-react { color: #61DAFB; }
+.icon-angular { color: #DD0031; }
+.icon-js { color: #F7DF1E; }
+.icon-bootstrap { color: #7952B3; }
+.icon-nodejs { color: #339933; }
+.icon-database { color: #4DB33D; }
+.icon-cogs { color: #F0DB4F; }
+.icon-fire { color: #FFCA28; }
+.icon-aws { color: #FF9900; }
+.icon-google { color: #4285F4; }
+.icon-sass { color: #CC6699; }
+.icon-git { color: #F05032; }
+.icon-sync { color: #4CAF50; }
+.icon-vial { color: #8E44AD; }
+.icon-html5 { color: #E34F26; }
+.icon-css3 { color: #1572B6; }
+.icon-code { color: #E44D26; }
+.icon-palette { color: #FF4081; }
