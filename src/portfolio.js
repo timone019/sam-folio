@@ -5,7 +5,7 @@ import AngularMovieAppShot from './img/angularMovieAppShot.png'
 import chatAppBg from './img/chatAppBg.png'
 import TheLinkScreenShot from './img/TheLinkScreenShot.png'
 import pokedexScreenShot from './img/pokedexScreenShot.png'
-import resume from './Files/sam-my-resume.pdf'
+import resume from './Files/SamMyResume.pdf'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
