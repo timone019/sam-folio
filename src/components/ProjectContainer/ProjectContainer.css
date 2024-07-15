@@ -46,3 +46,22 @@
   align-self: flex-end; /* Align link icon to the bottom */
 }
 
+.project .project__button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.project .project__button:hover {
+  background-color: #0056b3;
+}
+
+.project__button.no-underline::before {
+  content: none;
+}

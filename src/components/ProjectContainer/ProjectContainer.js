@@ -1,6 +1,6 @@
 import uniqid from 'uniqid'
-import GitHubIcon from '@mui/icons-material/GitHub'
-import LaunchIcon from '@mui/icons-material/Launch'
+// import GitHubIcon from '@mui/icons-material/GitHub'
+// import LaunchIcon from '@mui/icons-material/Launch'
 import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => {
@@ -48,10 +48,11 @@ const ProjectContainer = ({ project }) => {
      >
 
         {project.sourceCode && (
-          <a
-            href={project.sourceCode}
+          <button
+            // href={project.sourceCode}
+            type="button"
             aria-label='source code'
-            className='link link--icon'
+            className='link link--icon project__button no-underline'
             target='_blank'
             rel='noopener noreferrer'
             onClick={(e) => {
@@ -60,15 +61,16 @@ const ProjectContainer = ({ project }) => {
               window.open(project.sourceCode, '_blank')
             }}
           >
-            <GitHubIcon /> See Code
-          </a>
+             See Code
+          </button>
         )}
 
         {project.livePreview && (
-          <a
+          <button
             href={project.livePreview}
+            type="button"
             aria-label='live preview'
-            className='link link--icon'
+            className='link link--icon project__button no-underline'
             target='_blank'
             rel='noopener noreferrer'
             onClick={(e) => {
@@ -77,8 +79,8 @@ const ProjectContainer = ({ project }) => {
               window.open(project.livePreview, '_blank')
             }}
           >
-            <LaunchIcon /> See Live Site
-          </a>
+            See Live Site
+          </button>
         )}
       </div>
     </div>
