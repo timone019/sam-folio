@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sam-folio/static/css/main.94dafe02.css",
-    "main.js": "/sam-folio/static/js/main.c9683711.js",
+    "main.css": "/sam-folio/static/css/main.a77a6035.css",
+    "main.js": "/sam-folio/static/js/main.f3bb1c85.js",
     "static/media/TheLinkScreenShot.png": "/sam-folio/static/media/TheLinkScreenShot.cbb8f1bc569dfad56e61.png",
     "static/media/chatAppBg.png": "/sam-folio/static/media/chatAppBg.b084521e594758692d91.png",
     "static/media/angularMovieAppShot.png": "/sam-folio/static/media/angularMovieAppShot.f57ffd5f62f352ff1d4e.png",
@@ -10,11 +10,11 @@
     "static/media/pokedexScreenShot.png": "/sam-folio/static/media/pokedexScreenShot.32049cae53978d10cda9.png",
     "index.html": "/sam-folio/index.html",
     "static/media/medium.svg": "/sam-folio/static/media/medium.f5be80e2ba6a1786266b577fd4987eef.svg",
-    "main.94dafe02.css.map": "/sam-folio/static/css/main.94dafe02.css.map",
-    "main.c9683711.js.map": "/sam-folio/static/js/main.c9683711.js.map"
+    "main.a77a6035.css.map": "/sam-folio/static/css/main.a77a6035.css.map",
+    "main.f3bb1c85.js.map": "/sam-folio/static/js/main.f3bb1c85.js.map"
   },
   "entrypoints": [
-    "static/css/main.94dafe02.css",
-    "static/js/main.c9683711.js"
+    "static/css/main.a77a6035.css",
+    "static/js/main.f3bb1c85.js"
   ]
 }
