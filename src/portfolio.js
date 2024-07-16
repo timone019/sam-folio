@@ -20,12 +20,6 @@ const about = {
   description:
     'Versatile Developer whom is skilled at communicating technical concepts in an easy-to-understand manner.',
   resume: [resume],
-  social: {
-    linkedin: 'https://linkedin.com/in/sam-my-78934046',
-    github: 'https://github.com/timone019/portfolio',
-    twitterX: 'https://x.com/mrsamman019',
-    medium: 'https://medium.com/@my.samnang'
-  },
 }
 
 const projects = [
@@ -132,6 +126,12 @@ const skills = [
 const contact = {
   // email is optional - if left empty Contact section won't show up
   email: 'my.samnang@gmail.com',
+  social: {
+    linkedin: 'https://linkedin.com/in/sam-my-78934046',
+    github: 'https://github.com/timone019/portfolio',
+    twitterX: 'https://x.com/mrsamman019',
+    medium: 'https://medium.com/@my.samnang'
+  },
 }
 
 export { header, about, projects, skills, contact }

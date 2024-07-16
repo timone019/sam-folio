@@ -1,3 +1,19 @@
 .contact {
   flex-direction: column;
 }
+
+.contact__social {
+  display: flex;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+.contact__social a {
+  margin-right: 10px; 
+}
+
+.contact__social svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor; /* Ensures the SVG inherits the color */
+}
