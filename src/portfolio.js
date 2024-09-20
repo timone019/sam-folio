@@ -5,6 +5,8 @@ import AngularMovieAppShot from './img/angularMovieAppShot.png'
 import chatAppBg from './img/chatAppBg.png'
 import TheLinkScreenShot from './img/TheLinkScreenShot.png'
 import pokedexScreenShot from './img/pokedexScreenShot.png'
+import recipeScreenShot from './img/recipeDetailsScreenshot.png'
+import bookstoreScreenShot from './img/bookstoreScreenshot.png'
 import resume from './Files/SamMyResume.pdf'
 
 const header = {
@@ -18,7 +20,7 @@ const about = {
   name: 'Sam My',
   role: 'Full Stack Developer',
   description:
-    'Versatile Developer whom is skilled at communicating technical concepts in an easy-to-understand manner.',
+    'Versatile Developer: skilled at communicating technical concepts in an easy-to-understand manner.',
   resume: [resume],
 }
 
@@ -79,14 +81,23 @@ const projects = [
     livePreview: 'https://timone019.github.io/Pok-dex',
   },
   {
-    name: 'Coming Soon',
-    screenshots: [''],
+    name: 'Bookstore App',
+    screenshots: [bookstoreScreenShot],
     description:
-      'Still in development',
-    stack: ['' ],
-    sourceCode: '',
-    livePreview: '',
+      'The Bookstore application provides comprehensive information on books, sales, and sales records',
+    stack: ['Python, Django, PostgreSQL, HTML, CSS, JavaScript' ],
+    sourceCode: 'https://github.com/timone019/Bookstore.git',
+    livePreview: 'https://sleepy-island-60497-040803a19474.herokuapp.com',
   },
+    {
+      name: 'My Recipe App',
+      screenshots: [recipeScreenShot],
+      description:
+        ' This app allows users to browse, search, and manage a collection of recipes. Users can add new recipes, view details, and edit existing ones',
+      stack: ['Python', 'Django', 'SQLite', 'HTML', 'CSS', 'JavaScript'],
+      sourceCode: 'https://github.com/timone019/A2_Recipe_App.git',
+      livePreview: 'https://timone019.pythonanywhere.com',
+    },
   
 ]
 
