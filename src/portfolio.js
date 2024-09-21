@@ -111,6 +111,8 @@ const skills = [
   'Angular Material UI',
   'MUI',
   'JavaScript',
+  'Python',
+  'Django',
 
   'React-Bootstrap',
   'Redux',
@@ -118,6 +120,7 @@ const skills = [
   'Express',
   'MongoDB',
   'PostgreSQL',
+  'SQLite',
   'REST API',
   'Mongoose',
   'Expo',

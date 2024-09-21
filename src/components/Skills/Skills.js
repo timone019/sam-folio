@@ -17,7 +17,9 @@ import {
   FaCss3Alt,
   FaCode,
   FaPalette,
+  FaPython,
 } from 'react-icons/fa'
+import { SiDjango, SiSqlite } from 'react-icons/si'
 import uniqid from 'uniqid'
 import { skills } from '../../portfolio'
 import './Skills.css'
@@ -50,6 +52,9 @@ const skillIcons = {
   'HTML': <FaHtml5 className='icon-html5' />,
   'CSS': <FaCss3Alt className='icon-css3' />,
   'JQuery': <FaCode className='icon-code' />,
+  'SQLite': <SiSqlite className='icon-sqlite' />,
+  'Python': <FaPython className='icon-python' />,
+  'Django': <SiDjango className='icon-django' />,
 }
 
 const Skills = () => {
