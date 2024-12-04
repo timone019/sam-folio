@@ -7,6 +7,7 @@ import TheLinkScreenShot from './img/TheLinkScreenShot.png'
 import pokedexScreenShot from './img/pokedexScreenShot.png'
 import recipeScreenShot from './img/recipeDetailsScreenshot.png'
 import bookstoreScreenShot from './img/bookstoreScreenshot.png'
+import webAppScreenShot from './img/webappscreenshot.png'
 import resume from './Files/SamMyResume.pdf'
 
 const header = {
@@ -89,15 +90,24 @@ const projects = [
     sourceCode: 'https://github.com/timone019/Bookstore.git',
     livePreview: 'https://sleepy-island-60497-040803a19474.herokuapp.com',
   },
-    {
-      name: 'My Recipe App',
-      screenshots: [recipeScreenShot],
-      description:
-        ' This app allows users to browse, search, and manage a collection of recipes. Users can add new recipes, view details, and edit existing ones',
-      stack: ['Python', 'Django', 'SQLite', 'HTML', 'CSS', 'JavaScript'],
-      sourceCode: 'https://github.com/timone019/A2_Recipe_App.git',
-      livePreview: 'https://timone019.pythonanywhere.com',
-    },
+  {
+    name: 'My Recipe App',
+    screenshots: [recipeScreenShot],
+    description:
+      ' This app allows users to browse, search, and manage a collection of recipes. Users can add new recipes, view details, and edit existing ones',
+    stack: ['Python', 'Django', 'SQLite', 'HTML', 'CSS', 'JavaScript'],
+    sourceCode: 'https://github.com/timone019/A2_Recipe_App.git',
+    livePreview: 'https://timone019.pythonanywhere.com',
+  },
+  {
+    name: 'Web App Template',
+    screenshots: [webAppScreenShot],
+    description:
+      ' This app is a template for multipe apps from Ecommerce, Budget Tracker & Freelance Rate Calculator where within it has an invoice generator - pending backend template in progress ',
+    stack: ['React', 'MUI', 'Typescript', 'JavaScript'],
+    sourceCode: 'https://github.com/timone019/web-app-template.git',
+    livePreview: 'https://timone019.github.io/web-app-template',
+  },
   
 ]
 
