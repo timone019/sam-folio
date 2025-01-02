@@ -64,6 +64,12 @@ to `"homepage": "https://yourusername.github.io"`.
 
 - To build and deploy, run the following commands:
 
+npm:
+```shell
+npm build
+npm run deploy
+```
+yarn:
 ```shell
 yarn build
 yarn deploy
