@@ -151,7 +151,7 @@ const contact = {
   // email is optional - if left empty Contact section won't show up
   email: 'my.samnang@gmail.com',
   social: {
-    linkedin: 'https://linkedin.com/in/sam-my-78934046',
+    linkedin: 'https://linkedin.com/in/mrsamman',
     github: 'https://github.com/timone019/portfolio',
     twitterX: 'https://x.com/mrsamman019',
     medium: 'https://medium.com/@my.samnang'
