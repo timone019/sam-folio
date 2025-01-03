@@ -20,8 +20,25 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Sam My',
   role: 'Full Stack Developer',
-  description:
-    'Versatile Developer: skilled at communicating technical concepts in an easy-to-understand manner.',
+  description: `Hi there! 👋
+
+I'm a passionate developer who:
+
+  • Thrives on creating seamless, user-friendly experiences and loves tackling complex problems
+  
+  • Excels at simplifying technical concepts, making them accessible to everyone
+ 
+  • Enjoys connecting with others through technology and is always excited to learn and grow
+
+Beyond the Code:
+
+  • You'll find me outdoors, bike riding or hiking through scenic trails
+  
+  • I'm a huge sports enthusiast, especially when it comes to pro football—diving deep into fantasy football each season!
+  
+  • Whether analyzing stats or enjoying a game with friends, I bring the same enthusiasm to both sports and development
+  
+  • I believe in teamwork, strategy, and continuous improvement`,
   resume: [resume],
 }
 
