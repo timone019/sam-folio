@@ -22,23 +22,13 @@ const about = {
   role: 'Full Stack Developer',
   description: `Hi there! 👋
 
-I'm a passionate developer who:
+I like to think of coding like playing a great game of football—there's always a strategy, a plan, and a team working together toward a common goal.
 
-  • Thrives on creating seamless, user-friendly experiences and loves tackling complex problems
-  
-  • Excels at simplifying technical concepts, making them accessible to everyone
- 
-  • Enjoys connecting with others through technology and is always excited to learn and grow
+In fact, my love for the game of football has taught me a lot about data analysis and defined algorithms under pressure to anticipate the next big play while taking into account many variables.
 
-Beyond the Code:
+When I'm not trying to figure out the best fantasy football picks, I'm probably out on a hiking trail, pretending I'm training for an ultra-marathon (even though I'm just out for a casual ride).
 
-  • You'll find me outdoors, bike riding or hiking through scenic trails
-  
-  • I'm a huge sports enthusiast, especially when it comes to pro football—diving deep into fantasy football each season!
-  
-  • Whether analyzing stats or enjoying a game with friends, I bring the same enthusiasm to both sports and development
-  
-  • I believe in teamwork, strategy, and continuous improvement`,
+But hey, you never know—maybe that's the next big project!`,
   resume: [resume],
 }
 
@@ -103,7 +93,7 @@ const projects = [
     screenshots: [bookstoreScreenShot],
     description:
       'The Bookstore application provides comprehensive information on books, sales, and sales records',
-    stack: ['Python, Django, PostgreSQL, HTML, CSS, JavaScript' ],
+    stack: ['Python, Django, PostgreSQL, HTML, CSS, JavaScript'],
     sourceCode: 'https://github.com/timone019/Bookstore.git',
     livePreview: 'https://sleepy-island-60497-040803a19474.herokuapp.com',
   },
