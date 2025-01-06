@@ -58,6 +58,11 @@
   text-align: center;
 }
 
+/* Target the second button specifically when it wraps */
+.project .project__button + .project__button {
+  margin-top: 1em;  /* Only applies when buttons stack */
+}
+
 .project .project__button:hover {
   background-color: #0056b3;
 }

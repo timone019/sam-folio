@@ -159,7 +159,7 @@ const contact = {
   email: 'my.samnang@gmail.com',
   social: {
     linkedin: 'https://linkedin.com/in/mrsamman',
-    github: 'https://github.com/timone019/portfolio',
+    github: 'https://github.com/timone019',
     twitterX: 'https://x.com/mrsamman019',
     medium: 'https://medium.com/@my.samnang'
   },
