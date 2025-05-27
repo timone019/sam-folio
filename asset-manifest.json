@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/sam-folio/static/css/main.9c852013.css",
-    "main.js": "/sam-folio/static/js/main.84c1e27b.js",
-    "static/media/TheLinkScreenShot.png": "/sam-folio/static/media/TheLinkScreenShot.cbb8f1bc569dfad56e61.png",
-    "static/media/chatAppBg.png": "/sam-folio/static/media/chatAppBg.b084521e594758692d91.png",
-    "static/media/webappscreenshot.png": "/sam-folio/static/media/webappscreenshot.8e0e928829c653648135.png",
-    "static/media/angularMovieAppShot.png": "/sam-folio/static/media/angularMovieAppShot.f57ffd5f62f352ff1d4e.png",
-    "static/media/recipeDetailsScreenshot.png": "/sam-folio/static/media/recipeDetailsScreenshot.af1a3eb913359252b492.png",
-    "static/media/bookstoreScreenshot.png": "/sam-folio/static/media/bookstoreScreenshot.debf2e7933b8ba1fbb4b.png",
-    "static/media/MovieAppShot.png": "/sam-folio/static/media/MovieAppShot.c761598ec2e77611faf3.png",
-    "static/media/SamMyResume.pdf": "/sam-folio/static/media/SamMyResume.cb79e20ddf8ab5bcce1e.pdf",
-    "static/media/pokedexScreenShot.png": "/sam-folio/static/media/pokedexScreenShot.32049cae53978d10cda9.png",
-    "index.html": "/sam-folio/index.html",
-    "static/media/medium.svg": "/sam-folio/static/media/medium.f5be80e2ba6a1786266b577fd4987eef.svg",
-    "main.9c852013.css.map": "/sam-folio/static/css/main.9c852013.css.map",
-    "main.84c1e27b.js.map": "/sam-folio/static/js/main.84c1e27b.js.map"
+    "main.css": "/static/css/main.9c852013.css",
+    "main.js": "/static/js/main.6a838cac.js",
+    "static/media/TheLinkScreenShot.png": "/static/media/TheLinkScreenShot.cbb8f1bc569dfad56e61.png",
+    "static/media/chatAppBg.png": "/static/media/chatAppBg.b084521e594758692d91.png",
+    "static/media/webappscreenshot.png": "/static/media/webappscreenshot.8e0e928829c653648135.png",
+    "static/media/angularMovieAppShot.png": "/static/media/angularMovieAppShot.f57ffd5f62f352ff1d4e.png",
+    "static/media/recipeDetailsScreenshot.png": "/static/media/recipeDetailsScreenshot.af1a3eb913359252b492.png",
+    "static/media/bookstoreScreenshot.png": "/static/media/bookstoreScreenshot.debf2e7933b8ba1fbb4b.png",
+    "static/media/MovieAppShot.png": "/static/media/MovieAppShot.c761598ec2e77611faf3.png",
+    "static/media/SamMyResume.pdf": "/static/media/SamMyResume.cb79e20ddf8ab5bcce1e.pdf",
+    "static/media/pokedexScreenShot.png": "/static/media/pokedexScreenShot.32049cae53978d10cda9.png",
+    "index.html": "/index.html",
+    "static/media/medium.svg": "/static/media/medium.f5be80e2ba6a1786266b577fd4987eef.svg",
+    "main.9c852013.css.map": "/static/css/main.9c852013.css.map",
+    "main.6a838cac.js.map": "/static/js/main.6a838cac.js.map"
   },
   "entrypoints": [
     "static/css/main.9c852013.css",
-    "static/js/main.84c1e27b.js"
+    "static/js/main.6a838cac.js"
   ]
 }
