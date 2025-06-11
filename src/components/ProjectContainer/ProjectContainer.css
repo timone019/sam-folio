@@ -35,10 +35,15 @@
 }
 
 .project__stack-item {
-  margin: 0.5em;
+  margin: 0.3em;
+  padding: 0.3em 0.8em;
   font-weight: 500;
   font-size: 0.8rem;
-  color: var(--clr-fg-alt);
+  background: var(--clr-primary);
+  color: var(--clr-bg);
+  border-radius: 15px;
+  list-style: none;
+  display: inline-block;
 }
 
 .project .link--icon {

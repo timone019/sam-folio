@@ -1,14 +1,13 @@
-import { useContext, useState } from 'react'
-
+import { useContext, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Brightness2Icon from '@mui/icons-material/Brightness2';
 import WbSunnyRoundedIcon from '@mui/icons-material/WbSunnyRounded';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
-
-import { ThemeContext } from '../../contexts/theme'
-import { projects, skills, contact } from '../../portfolio'
-import './Navbar.css'
+import { ThemeContext } from '../../contexts/theme';
+import { projects, skills, contact } from '../../portfolio';
+import './Navbar.css';
 
 const Navbar = () => {
   const [{ themeName, toggleTheme }] = useContext(ThemeContext)
@@ -24,37 +23,47 @@ const Navbar = () => {
       >
         {projects.length ? (
           <li className='nav__list-item'>
-            <a
-              href='#projects'
+            <Link
+              to='/#projects'
               onClick={toggleNavList}
               className='link link--nav'
             >
               Projects
-            </a>
+            </Link>
           </li>
         ) : null}
 
+        <li className='nav__list-item'>
+          <Link
+            to='/#case-studies'
+            onClick={toggleNavList}
+            className='link link--nav'
+          >
+            Case Studies
+          </Link>
+        </li>
+
         {skills.length ? (
           <li className='nav__list-item'>
-            <a
-              href='#skills'
+            <Link
+              to='/#skills'
               onClick={toggleNavList}
               className='link link--nav'
             >
               Skills
-            </a>
+            </Link>
           </li>
         ) : null}
 
         {contact.email ? (
           <li className='nav__list-item'>
-            <a
-              href='#contact'
+            <Link
+              to='/#contact'
               onClick={toggleNavList}
               className='link link--nav'
             >
               Contact
-            </a>
+            </Link>
           </li>
         ) : null}
       </ul>

@@ -9,6 +9,7 @@ import recipeScreenShot from './img/recipeDetailsScreenshot.png'
 import bookstoreScreenShot from './img/bookstoreScreenshot.png'
 import webAppScreenShot from './img/webappscreenshot.png'
 import resume from './Files/SamMyResume.pdf'
+import movieAppCaseStudy from './Files/MovieAppCaseStudy.pdf'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -154,9 +155,22 @@ const skills = [
   'JQuery',
 ]
 
+const caseStudies = [
+  {
+    id: 'movie-app',
+    title: 'Must C Movies - Case Study',
+    description: 'A detailed analysis of the design and development process behind the Must C Movies web application.',
+    thumbnail: MovieAppShot,
+    pdf: movieAppCaseStudy,
+    projectLink: 'https://mustcmovies.netlify.app/',
+    tags: ['UI/UX Design', 'Full-Stack Development', 'MERN Stack']
+  }
+  // Add more case studies here as needed
+]
+
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'my.samnang@gmail.com',
+  email: 'smy@sam-my.com',
   social: {
     linkedin: 'https://linkedin.com/in/mrsamman',
     github: 'https://github.com/timone019',
@@ -165,4 +179,4 @@ const contact = {
   },
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, skills, contact, caseStudies }
