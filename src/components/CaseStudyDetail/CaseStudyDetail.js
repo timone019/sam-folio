@@ -12,7 +12,7 @@ const CaseStudyDetail = () => {
         <h2>Case Study Not Found</h2>
         <p>The requested case study could not be found.</p>
         <Link to="/case-studies" className="back-link">
-          ← Back to All Case Studies
+          ← Back
         </Link>
       </div>
     );
@@ -22,7 +22,7 @@ const CaseStudyDetail = () => {
     <div className="case-study-detail">
       <div className="case-study-detail__header">
         <Link to="/#case-studies" className="back-link">
-          ← Back to Case Studies
+          ← Back
         </Link>
         <h1 className="case-study-detail__title">{caseStudy.title}</h1>
       </div>

@@ -1,5 +1,5 @@
 import { useContext, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import Brightness2Icon from '@mui/icons-material/Brightness2';
 import WbSunnyRoundedIcon from '@mui/icons-material/WbSunnyRounded';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -13,7 +13,27 @@ const Navbar = () => {
   const [{ themeName, toggleTheme }] = useContext(ThemeContext)
   const [showNavList, setShowNavList] = useState(false)
 
-  const toggleNavList = () => setShowNavList(!showNavList)
+  const location = useLocation();
+  
+  const toggleNavList = () => setShowNavList(!showNavList);
+  
+  // Handle navigation to sections on the homepage
+  const scrollToSection = (e, sectionId) => {
+    e.preventDefault();
+    toggleNavList();
+    
+    // If we're not on the home page, navigate there first
+    if (location.pathname !== '/') {
+      window.location.href = `/${sectionId}`;
+      return;
+    }
+    
+    // Scroll to the section
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <nav className='center nav'>
@@ -21,51 +41,51 @@ const Navbar = () => {
         style={{ display: showNavList ? 'flex' : null }}
         className='nav__list'
       >
-        {projects.length ? (
+        {projects.length > 0 && (
           <li className='nav__list-item'>
-            <Link
-              to='/#projects'
-              onClick={toggleNavList}
-              className='link link--nav'
+            <button
+              type="button"
+              onClick={(e) => scrollToSection(e, 'projects')}
+              className='link link--nav nav-button'
             >
               Projects
-            </Link>
+            </button>
           </li>
-        ) : null}
+        )}
 
         <li className='nav__list-item'>
-          <Link
-            to='/#case-studies'
-            onClick={toggleNavList}
-            className='link link--nav'
+          <button
+            type="button"
+            onClick={(e) => scrollToSection(e, 'case-studies')}
+            className='link link--nav nav-button'
           >
             Case Studies
-          </Link>
+          </button>
         </li>
 
-        {skills.length ? (
+        {skills.length > 0 && (
           <li className='nav__list-item'>
-            <Link
-              to='/#skills'
-              onClick={toggleNavList}
-              className='link link--nav'
+            <button
+              type="button"
+              onClick={(e) => scrollToSection(e, 'skills')}
+              className='link link--nav nav-button'
             >
               Skills
-            </Link>
+            </button>
           </li>
-        ) : null}
+        )}
 
-        {contact.email ? (
+        {contact.email && (
           <li className='nav__list-item'>
-            <Link
-              to='/#contact'
-              onClick={toggleNavList}
-              className='link link--nav'
+            <button
+              type="button"
+              onClick={(e) => scrollToSection(e, 'contact')}
+              className='link link--nav nav-button'
             >
               Contact
-            </Link>
+            </button>
           </li>
-        ) : null}
+        )}
       </ul>
 
       <button
