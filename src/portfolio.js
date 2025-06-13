@@ -170,7 +170,7 @@ const caseStudies = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'smy@sam-my.com',
+  email: 'my.samnang@gmail.com',
   social: {
     linkedin: 'https://linkedin.com/in/mrsamman',
     github: 'https://github.com/timone019',
