@@ -11,6 +11,7 @@ import webAppScreenShot from './img/webappscreenshot.png'
 import resume from './Files/SamMyResume.pdf'
 import movieAppCaseStudy from './Files/MovieAppCaseStudy.pdf'
 import chatCityCaseStudy from './Files/ChatCityCaseStudy.pdf'
+import recipeAppCaseStudy from './Files/RecipeApplicationCaseStudy.pdf'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -157,6 +158,15 @@ const skills = [
 ]
 
 const caseStudies = [
+  {
+    id: 'recipe-app',
+    title: 'Recipe Application - Case Study',
+    description: 'A comprehensive case study on the development of a full-stack recipe application with user authentication and CRUD functionality.',
+    thumbnail: recipeScreenShot,
+    pdf: recipeAppCaseStudy,
+    projectLink: 'https://timone019.pythonanywhere.com',
+    tags: ['Django', 'Python', 'SQLite', 'Full-Stack Development']
+  },
   {
     id: 'chat-city',
     title: 'Chat City - Case Study',
