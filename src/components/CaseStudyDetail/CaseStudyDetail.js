@@ -52,7 +52,7 @@ const CaseStudyDetail = () => {
               rel="noopener noreferrer"
               className="project-link"
             >
-              View Live Project ↗
+              {caseStudy.id === 'chat-city' ? 'See Code ↗' : 'View Live Project ↗'}
             </a>
           )}
         </div>

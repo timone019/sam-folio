@@ -10,6 +10,7 @@ import bookstoreScreenShot from './img/bookstoreScreenshot.png'
 import webAppScreenShot from './img/webappscreenshot.png'
 import resume from './Files/SamMyResume.pdf'
 import movieAppCaseStudy from './Files/MovieAppCaseStudy.pdf'
+import chatCityCaseStudy from './Files/ChatCityCaseStudy.pdf'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -157,6 +158,15 @@ const skills = [
 
 const caseStudies = [
   {
+    id: 'chat-city',
+    title: 'Chat City - Case Study',
+    description: 'A comprehensive case study on the development and features of the Chat City mobile application.',
+    thumbnail: chatAppBg,
+    pdf: chatCityCaseStudy,
+    projectLink: 'https://github.com/timone019/chat-app',
+    tags: ['React Native', 'Mobile Development', 'Firebase']
+  },
+  {
     id: 'movie-app',
     title: 'Must C Movies - Case Study',
     description: 'A detailed analysis of the design and development process behind the Must C Movies web application.',
@@ -165,7 +175,6 @@ const caseStudies = [
     projectLink: 'https://mustcmovies.netlify.app/',
     tags: ['UI/UX Design', 'Full-Stack Development', 'MERN Stack']
   }
-  // Add more case studies here as needed
 ]
 
 const contact = {

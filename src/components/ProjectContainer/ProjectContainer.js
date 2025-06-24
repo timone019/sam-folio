@@ -67,19 +67,20 @@ const ProjectContainer = ({ project }) => {
 
         {project.livePreview && (
           <button
-            href={project.livePreview}
             type="button"
-            aria-label='live preview'
+            aria-label={project.name === 'Chat City' ? 'View case study' : 'live preview'}
             className='link link--icon project__button no-underline'
-            target='_blank'
-            rel='noopener noreferrer'
             onClick={(e) => {
               e.preventDefault()
               e.stopPropagation()
-              window.open(project.livePreview, '_blank')
+              if (project.name === 'Chat City') {
+                window.open('/case-studies/chat-city', '_self')
+              } else {
+                window.open(project.livePreview, '_blank')
+              }
             }}
           >
-            See Live Site
+            {project.name === 'Chat City' ? 'Case Study' : 'See Live Site'}
           </button>
         )}
       </div>

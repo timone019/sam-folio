@@ -3,7 +3,11 @@ import uniqid from 'uniqid';
 import './CaseStudyCard.css';
 
 const CaseStudyCard = ({ caseStudy }) => (
-  <div className="case-study-card">
+  <Link 
+    to={`/case-studies/${caseStudy.id}`} 
+    className="case-study-card"
+    style={{ textDecoration: 'none', color: 'inherit' }}
+  >
     <div className="case-study-card__image-container">
       <img 
         src={caseStudy.thumbnail} 
@@ -21,14 +25,11 @@ const CaseStudyCard = ({ caseStudy }) => (
           </span>
         ))}
       </div>
-      <Link 
-        to={`/case-studies/${caseStudy.id}`} 
-        className="case-study-card__link"
-      >
+      <div className="case-study-card__link">
         View Case Study
-      </Link>
+      </div>
     </div>
-  </div>
+  </Link>
 );
 
 export default CaseStudyCard;
