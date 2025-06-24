@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.488080d3.css",
-    "main.js": "/static/js/main.a8959d37.js",
+    "main.css": "/static/css/main.cd9fa6f4.css",
+    "main.js": "/static/js/main.2ba2d46a.js",
     "static/media/TheLinkScreenShot.png": "/static/media/TheLinkScreenShot.cbb8f1bc569dfad56e61.png",
     "static/media/MovieAppCaseStudy.pdf": "/static/media/MovieAppCaseStudy.af9bed5e208f6e1dfcf7.pdf",
     "static/media/chatAppBg.png": "/static/media/chatAppBg.b084521e594758692d91.png",
     "static/media/ChatCityCaseStudy.pdf": "/static/media/ChatCityCaseStudy.babb3c4fd60fc3ea256a.pdf",
+    "static/media/RecipeApplicationCaseStudy.pdf": "/static/media/RecipeApplicationCaseStudy.8fe55fb1a45969fbc175.pdf",
     "static/media/webappscreenshot.png": "/static/media/webappscreenshot.8e0e928829c653648135.png",
     "static/media/angularMovieAppShot.png": "/static/media/angularMovieAppShot.f57ffd5f62f352ff1d4e.png",
     "static/media/recipeDetailsScreenshot.png": "/static/media/recipeDetailsScreenshot.af1a3eb913359252b492.png",
@@ -15,11 +16,11 @@
     "static/media/pokedexScreenShot.png": "/static/media/pokedexScreenShot.32049cae53978d10cda9.png",
     "index.html": "/index.html",
     "static/media/medium.svg": "/static/media/medium.f5be80e2ba6a1786266b577fd4987eef.svg",
-    "main.488080d3.css.map": "/static/css/main.488080d3.css.map",
-    "main.a8959d37.js.map": "/static/js/main.a8959d37.js.map"
+    "main.cd9fa6f4.css.map": "/static/css/main.cd9fa6f4.css.map",
+    "main.2ba2d46a.js.map": "/static/js/main.2ba2d46a.js.map"
   },
   "entrypoints": [
-    "static/css/main.488080d3.css",
-    "static/js/main.a8959d37.js"
+    "static/css/main.cd9fa6f4.css",
+    "static/js/main.2ba2d46a.js"
   ]
 }
