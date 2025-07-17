@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cd9fa6f4.css",
-    "main.js": "/static/js/main.2ba2d46a.js",
+    "main.js": "/static/js/main.89634ee6.js",
     "static/media/TheLinkScreenShot.png": "/static/media/TheLinkScreenShot.cbb8f1bc569dfad56e61.png",
     "static/media/MovieAppCaseStudy.pdf": "/static/media/MovieAppCaseStudy.af9bed5e208f6e1dfcf7.pdf",
     "static/media/chatAppBg.png": "/static/media/chatAppBg.b084521e594758692d91.png",
@@ -17,10 +17,10 @@
     "index.html": "/index.html",
     "static/media/medium.svg": "/static/media/medium.f5be80e2ba6a1786266b577fd4987eef.svg",
     "main.cd9fa6f4.css.map": "/static/css/main.cd9fa6f4.css.map",
-    "main.2ba2d46a.js.map": "/static/js/main.2ba2d46a.js.map"
+    "main.89634ee6.js.map": "/static/js/main.89634ee6.js.map"
   },
   "entrypoints": [
     "static/css/main.cd9fa6f4.css",
-    "static/js/main.2ba2d46a.js"
+    "static/js/main.89634ee6.js"
   ]
 }
