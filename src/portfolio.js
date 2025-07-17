@@ -96,7 +96,7 @@ const projects = [
     screenshots: [bookstoreScreenShot],
     description:
       'The Bookstore application provides comprehensive information on books, sales, and sales records',
-    stack: ['Python, Django, PostgreSQL, HTML, CSS, JavaScript'],
+    stack: ['Python', 'Django', 'PostgreSQL', 'HTML', 'CSS', 'JavaScript'],
     sourceCode: 'https://github.com/timone019/Bookstore.git',
     livePreview: 'https://sleepy-island-60497-040803a19474.herokuapp.com',
   },
