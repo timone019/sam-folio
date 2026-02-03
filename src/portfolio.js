@@ -6,7 +6,6 @@ import chatAppBg from './img/chatAppBg.png'
 import TheLinkScreenShot from './img/TheLinkScreenShot.png'
 import pokedexScreenShot from './img/pokedexScreenShot.png'
 import recipeScreenShot from './img/recipeDetailsScreenshot.png'
-import bookstoreScreenShot from './img/bookstoreScreenshot.png'
 import webAppScreenShot from './img/webappscreenshot.png'
 import resume from './Files/SamMyResume.pdf'
 import movieAppCaseStudy from './Files/MovieAppCaseStudy.pdf'
@@ -47,6 +46,7 @@ const projects = [
     sourceCode: 'https://github.com/timone019/movie_api-client',
     livePreview: 'https://mustcmovies.netlify.app/',
   },
+  
   {
     name: 'Angular Movie App',
     screenshots: [AngularMovieAppShot],
@@ -56,6 +56,7 @@ const projects = [
     sourceCode: 'https://github.com/timone019/myFlix-Angular-client.git',
     livePreview: 'https://timone019.github.io/myFlix-Angular-client/',
   },
+
   {
     name: 'Chat City',
     screenshots: [chatAppBg],
@@ -91,15 +92,7 @@ const projects = [
     sourceCode: 'https://github.com/timone019/Pok-dex.git',
     livePreview: 'https://timone019.github.io/Pok-dex',
   },
-  {
-    name: 'Bookstore App',
-    screenshots: [bookstoreScreenShot],
-    description:
-      'The Bookstore application provides comprehensive information on books, sales, and sales records',
-    stack: ['Python', 'Django', 'PostgreSQL', 'HTML', 'CSS', 'JavaScript'],
-    sourceCode: 'https://github.com/timone019/Bookstore.git',
-    livePreview: 'https://sleepy-island-60497-040803a19474.herokuapp.com',
-  },
+
   {
     name: 'My Recipe App',
     screenshots: [recipeScreenShot],
@@ -109,6 +102,7 @@ const projects = [
     sourceCode: 'https://github.com/timone019/A2_Recipe_App.git',
     livePreview: 'https://timone019.pythonanywhere.com',
   },
+
   {
     name: 'Web App Template',
     screenshots: [webAppScreenShot],
